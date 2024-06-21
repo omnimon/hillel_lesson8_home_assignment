@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Various Block Model Experiments</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Various Experiments and Stuff</h1><Br>
+    <div>Element 1</div>
+    <div>Element 2 </div>
+    <div>Element 3</div>
+
+    <br>
+
+    <span>Element 1</span>
+    <span>Element 2</span>
+    <span>Element 3</span>
+
+    <! -- Block elements -->
+    <h2>Block Elements examples:</h2><br>
+    <p>Text 1</p>
+    <p>text 2</p>
+    <p>text 3</p>
+
+    <! -- inline elements -->
+    <h2>Inline Elements examples:</h2><br>
+    <a href="https://www.google.com">Google Link</a>
+    <img src="https://www.w3.org/People/mimasa/test/imgformat/img/w3c_home.png" alt="test image">
+    <label>Some barely readable text</label>
+
+    <!-- The observable results with normalize enabled/disabled-->
+    <p> With normalize enabled the margins are being reset and the elements appear to be more to the left as there are
+      no odd margins set. Actually, this is the most observable difference here as of now.</p>
+
+    <h1>CSS Display and Box Sizing</h1>
+    <div class="block">Block Element</div>
+    <span class="inline">Inline Element</span>
+    <div class="flex-container">
+      <div>Flex Item 1</div>
+      <div>Flex Item 2</div>
+      <div>Flex Item 3</div>
+    </div>
+
+    <h1>Float and Clear</h1>
+    <div class="float-left">Float Left</div>
+    <div class="float-right">Float Right</div>
+    <div class="clear-both">Clear both floats</div>
+
+    <h1>Overflow</h1>
+    <div class="overflow-container">
+      This is a lot of content in a small container. This is a lot of content in a small container.
+      This is a lot of content in a small container. This is a lot of content in a small container.
+    </div>
+
+    <h1>Positioning</h1>
+    <div class="relative" style="height: 100px;">
+      <div class="absolute">Absolute Position</div>
+    </div>
+    <div class="fixed">Fixed Position</div>
+    <div class="sticky">Sticky Position</div>
+  </body>
+</html>
